@@ -1,0 +1,272 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/components/no_account_text.dart';
+import 'package:flutter_app/constants.dart';
+import 'package:flutter_app/scareens/forgot_password/components/forgot_password_form.dart';
+import 'package:flutter_app/size_cinfig.dart';
+import 'package:flutter_app/scareens/food/food_page_screen.dart';
+import 'package:flutter_app/scareens/food/components/food.page.dart';
+import 'package:flutter_app/scareens/food_Middle/components/food_Middle_body.dart';
+import 'package:getwidget/getwidget.dart';
+
+class Body extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: <Widget>[
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food1.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("石原省太郎｜「10元泡芙」超級省！連小學生都買的起，銅板甜點新主張！ "),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food2.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("灰鴿/鍋｜蝦到極點！6款鮮蝦擺滿滿，正宗重慶麻辣「灰鴿」竄起！"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food3.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("雲火燒肉｜豬肉界的勞斯萊斯！一次品嘗「伊比利黑豬」多種口感"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food4.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("台客燒肉粥｜是阿嬤的味道！南屯「古早味手路菜」誘惑宵夜新選擇"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food5.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("水森水產｜這一桌要不要這麼「蝦」四隻大龍蝦超滿足！"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food6.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("森川丼丼｜全台首創！超巨大鰻魚握壽司磅礡登場，別具匠心的日式料理"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food7.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("花現愛 幸福燒｜吃下一束花？快來豐原廟東與「玫瑰花燒」幸福相遇吧！"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food8.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("拼鮮｜天天狂賣！誇張澎湃「海產泡飯」在彰化，竟然只要175元"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food9.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("拼鮮｜天天狂賣！誇張澎湃「海產泡飯」在彰化，竟然只要175元"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/中部/中部food10.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("方愫馨草屯手工麻糬"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        )
+
+      ],
+    );
+
+  }
+
+}
